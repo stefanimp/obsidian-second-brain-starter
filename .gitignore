@@ -1,0 +1,16 @@
+﻿# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Obsidian local state if someone experiments in this repository
+.obsidian/workspace*.json
+.obsidian/cache/
+.obsidian/plugins/*/data.json
+.trash/
+
+# Temporary exports
+export/
+dist/
