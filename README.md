@@ -60,6 +60,23 @@ This system keeps the type model deliberately small:
 6. Review the system weekly.
 7. Do not publish your personal vault.
 
+## Documentation
+
+- [Philosophy](docs/philosophy.md): the reasoning behind the system.
+- [Setup](docs/setup.md): how to create the vault structure.
+- [Workflow](docs/workflow.md): capture, process, connect, review, and evolve.
+- [Metadata Model](docs/metadata-model.md): the recommended properties and when to use them.
+- [Dataview Examples](docs/dataview-examples.md): practical queries for dashboards and reviews.
+- [Privacy Checklist](docs/privacy-checklist.md): what to review before publishing anything from a vault.
+- [References](docs/references.md): official docs and conceptual background.
+
+## Repository Contents
+
+```txt
+templates/   Clean reusable Obsidian templates
+examples/    Example Home dashboard and Areas MOC
+docs/        Setup, workflow, metadata, Dataview, privacy, and references
+```
 ## Recommended Plugins
 
 The system works with Obsidian core features, but these plugins make it stronger:
@@ -92,3 +109,4 @@ Available documentation:
 Never publish your real vault without reviewing it first. Personal notes often contain names, emotions, locations, private links, and context that should not be public.
 
 Use this repository as a public template, not as a mirror of your private knowledge base.
+
