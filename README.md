@@ -10,6 +10,7 @@ This repository contains a clean, privacy-safe version of a real note-taking wor
 - Obsidian Properties for structure;
 - Dataview/Bases-style queries for review;
 - templates that force clarity without slowing down writing.
+- an optional AI-friendly project memory layer for focused assistant handoffs.
 
 ## Core Idea
 
@@ -60,6 +61,20 @@ This system keeps the type model deliberately small:
 6. Review the system weekly.
 7. Do not publish your personal vault.
 
+## Optional AI Project Memory
+
+If you use ChatGPT, Claude, Cursor, Codex, or other AI assistants with your notes, the goal is not to paste more vault content. The goal is to make the useful context easier to find.
+
+This starter now includes an optional project-memory module for:
+
+- short project context briefs;
+- decision logs;
+- action logs;
+- failed-attempt notes;
+- metadata that helps retrieval without turning every note into a form.
+
+Use it only for projects that span multiple sessions or where you keep re-explaining the same context to an assistant.
+
 ## Documentation
 
 - [Philosophy](docs/philosophy.md): the reasoning behind the system.
@@ -67,6 +82,7 @@ This system keeps the type model deliberately small:
 - [Workflow](docs/workflow.md): capture, process, connect, review, and evolve.
 - [Metadata Model](docs/metadata-model.md): the recommended properties and when to use them.
 - [Dataview Examples](docs/dataview-examples.md): practical queries for dashboards and reviews.
+- [AI-Friendly Project Memory](docs/ai-context.md): optional project notes for better AI handoffs and less context waste.
 - [Privacy Checklist](docs/privacy-checklist.md): what to review before publishing anything from a vault.
 - [References](docs/references.md): official docs and conceptual background.
 
@@ -74,8 +90,8 @@ This system keeps the type model deliberately small:
 
 ```txt
 templates/   Clean reusable Obsidian templates
-examples/    Example Home dashboard and Areas MOC
-docs/        Setup, workflow, metadata, Dataview, privacy, and references
+examples/    Example Home dashboard, Areas MOC, and AI-friendly project memory
+docs/        Setup, workflow, metadata, AI context, Dataview, privacy, and references
 ```
 ## Recommended Plugins
 

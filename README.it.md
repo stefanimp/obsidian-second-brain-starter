@@ -9,7 +9,8 @@ Questo repository contiene una versione pulita e sicura da pubblicare di un flus
 - MOC come indici vivi;
 - Properties di Obsidian per dare struttura;
 - query in stile Dataview/Bases per revisione e recupero;
-- template che aiutano a pensare con chiarezza senza rallentare la scrittura.
+- template che aiutano a pensare con chiarezza senza rallentare la scrittura;
+- un livello opzionale di memoria di progetto per lavorare meglio con l'IA.
 
 ## Idea Centrale
 
@@ -57,6 +58,20 @@ La struttura della conoscenza vive in link, proprietà, alias e MOC.
 5. Usa metadati utili, non infiniti.
 6. Rivedi il sistema ogni settimana.
 7. Non pubblicare il tuo vault personale.
+
+## Memoria di Progetto per l'IA
+
+Se usi ChatGPT, Claude, Cursor, Codex o altri assistenti con le tue note, la soluzione non è incollare più contenuto del vault. La soluzione è preparare meglio il contesto utile.
+
+Lo starter ora include un modulo opzionale per:
+
+- context brief di progetto;
+- decision log;
+- action log;
+- note sui tentativi falliti;
+- metadati minimi per migliorare il recupero senza burocrazia.
+
+Usalo solo per progetti lunghi o quando ti accorgi di dover rispiegare lo stesso contesto a un'IA.
 
 ## Avvio Rapido
 

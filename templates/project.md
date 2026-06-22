@@ -36,6 +36,15 @@ updated: "{{date:YYYY-MM-DD}}"
 ## Current State
 
 
+## AI Context
+
+Optional, for projects that span multiple AI sessions:
+
+- [[{{title}} - Context Brief]]
+- [[{{title}} - Decision Log]]
+- [[{{title}} - Action Log]]
+- [[{{title}} - Failed Attempts]]
+
 ## Decisions
 -
 

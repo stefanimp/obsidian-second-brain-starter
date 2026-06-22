@@ -43,6 +43,22 @@ updated: "{{date:YYYY-MM-DD}}"
 | `repo` | The note describes a software project. |
 | `rating` | The note describes a source. |
 | `link` | The note describes an external source. |
+| `project` | The note supports a project and should be linked to the project control-tower note. |
+| `ai_context_role` | The note has an optional role in AI handoffs, such as `context_brief`, `decision_log`, `action_log`, or `failed_attempts`. |
+| `context_priority` | The note should be considered `high`, `medium`, or `low` priority when preparing AI context. |
+
+## Optional AI Context Fields
+
+Use these only when you actually use AI assistants across project sessions.
+
+```yaml
+type: note
+project: "[[Project Name]]"
+ai_context_role: context_brief
+context_priority: high
+```
+
+These fields should help a human or tool find the right project context faster. They should not replace clear note titles, links, or short summaries. Do not create a new `type` value for AI memory notes; use `type: note` and keep the type model small.
 
 ## Rule
 
